@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0%;
+    top: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #222222;
+}
+img{
+    border-radius: 5px;
+}
+
+.header{
+    background-color: #000000;
+    color: #ff0000;
+    padding: 2%;
+    position: sticky;
+    display: flex;
+    justify-content: space-between; /*separar o titulo e "voltar"*/
+    text-align: center;
+    min-width: auto;
+    align-items: center;
+}
+
+.header nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header nav ul{
+    list-style: none;
+    display: flex;
+    margin-right: 30px; /*!!!!!!!!!!!!!!!*/
+    margin-top: 5px;
+    font-size: 20px;
+}
+li:hover{
+    cursor: auto; /* Proposital */
+    text-decoration: underline;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+#titulo{
+    text-align: center;
+    background-color: rgb(230, 230, 230, 1);
+    padding: 15px;
+    width: 30%;
+    border-radius: 10px;
+    margin: 40px auto;
+}
+
+#imagens{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+.img{
+    width: 300px;
+    height: 225px;
+    object-fit: cover; /* corta a imagem para caber no espaço */
+}
+
+.topico{
+    color: white;
+    max-width: max-content;
+    margin: 0% auto;
+    padding: 50px;
+}
+
+hr{
+    width: 80%;
+    margin: 0% auto;
+}
