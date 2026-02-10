@@ -1,0 +1,51 @@
+:root{
+  --bg:#0f1724;
+  --card:#0b1220;
+  --accent:#06b6d4;
+  --text:#e6eef8;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family:Inter,Segoe UI,Helvetica,Arial,sans-serif;
+  background:linear-gradient(180deg,#071224 0%, #071628 60%);
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+}
+.hero{
+  padding:48px 16px;
+  background:linear-gradient(90deg, rgba(6,182,212,0.06), rgba(6,182,212,0.02));
+  border-bottom:1px solid rgba(255,255,255,0.03);
+}
+.hero-inner{max-width:900px;margin:0 auto;display:flex;align-items:center;gap:16px}
+.avatar{
+  width:96px;height:96px;border-radius:50%;background:var(--card);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:36px;color:var(--accent);overflow:hidden;flex-shrink:0}
+.avatar img{width:100%;height:100%;object-fit:cover;border-radius:50%}
+h1{margin:0;font-size:28px}
+.tagline{margin:4px 0 0;color:rgba(230,238,248,0.8)}
+.container{max-width:900px;margin:28px auto;padding:0 16px}
+section{background:rgba(255,255,255,0.02);padding:18px;border-radius:10px;margin-bottom:16px;border:1px solid rgba(255,255,255,0.02)}
+h2{margin:0 0 8px;font-size:20px;color:#ffffff}
+h3{color:#ffffff}
+p{margin:0 0 8px;color:rgba(230,238,248,0.9)}
+.about-section{display:flex;gap:20px;align-items:flex-start}
+.about-text{flex:1}
+.about-image{flex:0 0 200px}
+.about-image img{width:100%;height:auto;border-radius:8px;border:1px solid rgba(255,255,255,0.05)}
+ul,ol{margin:0 0 0 20px;padding:0 0 0 18px}
+ul li{margin:6px 0;list-style:disc;}
+ol li{margin:6px 0;}
+footer.site-footer{max-width:900px;margin:12px auto 48px;padding:0 16px;color:rgba(230,238,248,0.7)}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.gallery-cols{display:flex;gap:16px;margin-bottom:16px}
+.col{flex:1;background:rgba(6,182,212,0.08);padding:16px;border-radius:8px;border:1px solid rgba(6,182,212,0.2)}
+.col h3{margin:0 0 8px;color:var(--accent);font-size:18px}
+.col p{margin:0;color:rgba(230,238,248,0.85)}
+.image-container{display:flex;justify-content:center;margin-top:24px}
+.image-container img{max-width:100%;height:auto;border-radius:8px;border:1px solid rgba(255,255,255,0.05)}
+@media(min-width:900px){
+  .hero{padding:56px 0}
+  .container{padding:0}
+}
