@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(50, 50, 50);
+}
+
+header{
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+
+main{
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+
+section{
+    border-radius: 10px;
+    width: 25%;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: rgb(80, 80, 80);
+}
+
+#foto_zanq{
+    height: 200px;
+}
+
+footer{
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
